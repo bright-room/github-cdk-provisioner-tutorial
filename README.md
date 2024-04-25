@@ -1,2 +1,3 @@
 # github-cdk-provisioner-tutorial
-Github on IaC(CDK) tutorial
+
+CDK for Terraformを使ってGithubをIaC化するチュートリアルリポジトリ

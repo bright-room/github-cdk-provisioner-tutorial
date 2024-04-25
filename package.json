@@ -1,0 +1,33 @@
+{
+  "type": "module",
+  "name": "github-cdk-provisioner-tutorial",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint ./ && prettier --check ./",
+    "format": "eslint --fix ./ && prettier --write ./",
+    "plan": "cdktf diff --no-color",
+    "apply": "cdktf deploy --no-color --auto-approve",
+    "upgrade": "npm i cdktf@latest cdktf-cli@latest",
+    "upgrade:next": "npm i cdktf@next cdktf-cli@next"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "yarn@1.22.22",
+  "dependencies": {
+    "cdktf": "0.20.7",
+    "constructs": "10.3.0"
+  },
+  "devDependencies": {
+    "@cdktf/provider-github": "13.0.0",
+    "@eslint/js": "^9.0.0",
+    "@types/node": "20.12.7",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.2.5",
+    "prettier-plugin-organize-imports": "^3.2.4",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.7.0"
+  }
+}
