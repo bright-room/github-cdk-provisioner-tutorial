@@ -19,7 +19,7 @@
     "constructs": "10.3.0"
   },
   "devDependencies": {
-    "@cdktf/provider-github": "13.0.0",
+    "@cdktf/provider-github": "13.2.0",
     "@eslint/js": "^9.0.0",
     "@types/node": "20.12.7",
     "eslint": "^9.0.0",
