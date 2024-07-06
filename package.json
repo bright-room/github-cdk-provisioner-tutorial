@@ -21,12 +21,12 @@
   "devDependencies": {
     "@cdktf/provider-github": "14.2.2",
     "@eslint/js": "^9.5.0",
-    "@types/node": "20.14.9",
+    "@types/node": "20.14.10",
     "eslint": "^9.5.0",
     "eslint-config-prettier": "^9.1.0",
     "prettier": "^3.3.2",
     "prettier-plugin-organize-imports": "^3.2.4",
-    "tsx": "^4.15.9",
+    "tsx": "^4.16.2",
     "typescript": "^5.5.2",
     "typescript-eslint": "^7.14.1"
   }
